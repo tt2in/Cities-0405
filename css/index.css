@@ -27,7 +27,8 @@ body{
 .header{
     display: flex;
     align-items: center;
-    /* justify-content: space-between; 는 자식들 공평하게 양 쪽으로 띄어놓기*/
+    /* justify-content: space-between; 는 자식들 공평하게 양 쪽으로 띄어놓기
+    align-content는 헤더에 있는 요소들이 자기자신 칸에서 왼쪽 위부터 채워지는데 이를 이동*/
     padding: 10px 20px;
 }
 
@@ -51,7 +52,7 @@ body{
 button{
     padding: 8px 20px;
     background-color: pink;
-    color: blueviolet;
+    color: yellow;
     border-radius: 5px;
     border: 1px solid orangered;
 }
@@ -85,7 +86,7 @@ button:hover{
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-
+/* 포지션은 글씨가 item의 한가운데에 위치할 수 있도록 해줌 */
 }
 
 .slide .item h3{
